@@ -1,7 +1,7 @@
-RAIC1 (Python 3 port)
-=======================
+Python 3 port
+=============
 
-This folder provides a Python 3-compatible reimplementation of the tools in
+This repo provides a Python 3-compatible reimplementation of the tools in
 Work/. The goal is to keep the same pipeline while removing Python 2-only
 modules. The rotor cipher is reimplemented in pure Python to match Python 2
 rotor behavior.
@@ -13,7 +13,7 @@ What is included
 - script_redirect.py / script_unredirect.py: reversible obfuscation steps.
 - pyc_decryptor.py / pyc_encryptor.py: marshal rewriter for Python 2.7 bytecode.
 - pymarshal.py: custom marshal that understands Python 2 code objects.
-- rotor_compat.py: Python 3 rotor implementation (deterministic).
+- rotor_compat.py: Python 3 rotor implementation (Python 2 compatible).
 - grep.py: search for patterns inside script_* files.
 - install.py: move a script into the Android app data directory.
 
