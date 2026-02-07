@@ -18,7 +18,7 @@ Python packages
 - xdis
 
 Optional tools
-- python2 (only needed if you want to compile .py into Python 2.7 .pyc)
+- python2 (only needed when encrypting a .py input)
 
 Setup
 -----
@@ -36,7 +36,7 @@ python decrypt.py script_file --py-out output.py
 Encrypt from .pyc:
 python encrypt.py file.pyc --output script_file
 
-Encrypt from .py (requires python2 to compile to .pyc):
+Encrypt from .py (automatically uses python2 if available):
 python encrypt.py file.py --output script_file
 
 Batch decrypt (test folder)
